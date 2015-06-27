@@ -171,8 +171,8 @@ The first modification is to include the module at the top of your `rc.lua`
 (after `awful.rules = require("awful.rules")`):
 
 ```lua
-local tyrannical = require("tyrannical")
---require("tyrannical.shortcut") --optional
+local tyrannical = require("plugins.tyrannical")
+--require("plugins.tyrannical.shortcut") --optional
 ```
 
 Then this line has to be removed:
